@@ -1,0 +1,446 @@
+
+/* Navbar: Start */
+
+.bg-light {
+        background-color: #28a745 !important;
+        height: 50px !important;
+}
+.nav-link {
+        color: rgb(255, 255, 255) !important;
+        font-size: 13px !important;
+        font-weight: bold !important; 
+}
+.nav-link:hover{
+        background-color:#316dc3;
+        border-radius: 14px;
+}
+.dropdown-menu {
+        background-color: #28a745 !important;
+        color: rgb(255, 255, 255) !important;
+}
+.dropdown-menu:hover{
+        color: #316dc3 !important;
+}
+.dropdown-item{
+        color: white !important;
+        font-weight: bold !important;
+}
+.dropdown-item:hover {
+        background-color:  #316dc3 !important;
+        border-radius: 14px;
+}
+/* Navbar: End */
+
+/* NEWS BAR: Start */
+
+.main-news{
+    position: relative;
+   
+}
+
+.latest-news{
+    background-color:  #316dc3 !important;
+    color:gold;
+    width: 180px;
+    border-top-right-radius:30px;
+    height:47px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+}
+.latest-news h1{
+    font-size: 20px;
+}
+.news-bar{
+    border: 2px solid green;
+    padding: 10px;
+    width: 100%;
+    height: 48px;
+    background-color: #56b46c !important;
+}
+.NEWS ul{
+    list-style-type: none;
+}
+.NEWS ul li {
+    display: inline;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;   
+}
+
+.NEWS ul li:hover {
+    color: #316dc3;
+}
+ 
+marquee{
+    text-transform: uppercase;
+}
+/* NEWS BAR: END */
+
+
+
+/* Video: Start */
+
+.video-div{
+position: relative;
+}
+
+video{
+    width: 100%;
+    opacity:0.5;
+    max-height: 600px;
+   
+    
+}
+/* Video: END */
+
+
+
+/* Saylani-Founder-Detail: Start */
+.saylani-bio-data{
+    width: 100%;
+    height: 390px;
+    position: absolute;
+    top: 100px;
+}
+.saylani-bio-data h1 {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-family: Impact;
+    color:#316dc3;
+}
+.saylani-bio-data h1:hover{
+    color: #28a745;
+}
+
+.biop {
+    text-align: center; 
+    font-size: 15px;
+    color: #28a745;
+    width: 950px;
+    margin: 0px auto 0px auto;
+    font-weight: bold;
+    padding: 5px; 
+}
+.founder-pic{
+    border: 10px solid #28a745;
+    width:  110px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.founder-name{
+    color: #28a745;
+    font-weight: bold;
+    font-family: Impact;
+    border-top: 3px solid #316dc3;
+}
+
+.founder-name:hover{
+    color: #316dc3;
+}
+.founder-name h1 {
+    margin-top: -50px;
+}
+.founder-p{
+    font-weight:normal; 
+    font-family: Impact;
+    width: 338px;
+    margin:0px auto 0px auto;
+    margin-top: -110px;
+    padding-left: 10px; 
+}
+
+/* Saylani-Founder-Detail: END */
+
+
+    
+
+/*Pic Slide Show Start*/
+.saylani-slider{
+   
+    margin: 50px;
+    box-shadow: 10px 10px 20px #28a745;
+}
+.carousel-control-prev{
+    background-color: #0e5bc7;
+    border-radius: 100px;
+    width: 50px;
+    height:50px;
+    margin-top: 150px;
+}
+.carousel-control-next{
+    background-color: #0e5bc7;
+    border-radius: 100px;
+    width: 50px;
+    height:50px;
+    margin-top: 150px;
+}
+.carousel-control-next:hover{
+background-color: #28a745;
+}
+.carousel-control-prev:hover{
+background-color: #28a745;
+}
+.saylani-slider h5, p {
+color: #28a745;
+
+
+}
+/*Pic Slide Show end*/
+
+
+
+
+
+
+
+
+/*Saylani-serach-bar Start*/
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    width: 240px;
+    
+    }
+    
+    /* Style the submit button */
+    form.example button {
+    
+    width: 50px;
+    height: 45px;
+    margin-top: 8px;
+    margin-left: 10px; 
+    background: #316dc3;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+    
+    form.example button:hover {
+    background: #0b7dda;
+    }
+    .saylani-searchbar form{
+    width: 315px;
+    }
+    
+    /*Saylani-serach-bar End*/
+
+
+    
+/*Email Subscribtion Start*/
+
+.email-subscribtion {
+    width: 300px;
+    margin: 10px;
+    
+    }
+    .email-subscribtion h5 {
+    color: #28a745;
+    font-family: Impact;
+    }
+    
+    
+    
+    /* Style the form element with a border around it */
+    form {
+    border: 4px solid #f1f1f1;
+    }
+    
+    /* Add some padding and a grey background color to containers */
+    .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    }
+    
+    /* Style the input elements and the submit button */
+    input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    
+    /* Add margins to the checkbox */
+    input[type=checkbox] {
+    margin-top: 16px;
+    }
+    
+    /* Style the submit button */
+    input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    }
+    
+    input[type=submit]:hover {
+    opacity: 0.8;
+    }
+    /*Email Subscribtion End*/
+
+
+
+    
+
+/*Saylani Courses & Services Start*/
+
+.saylani-courses{
+
+    position: absolute;
+    top: 950px;
+    left: 320px;
+    padding: 10px;
+    
+    }
+    .saylani-courses img {
+    margin: 10px;
+    box-shadow: 5px 5px 10px black; 
+    }
+    .saylani-courses h3 {
+    color: #28a745;
+    font-family: Impact;
+    text-align: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 10px 0px 10px 0px;
+    }
+    
+    /*Saylani Courses & Services End*/
+    
+    
+    
+    /*Saylani Support Start*/
+    
+    .support{
+    
+    width: 330px;
+    height: 800px;
+    }
+    .support img{
+    margin: 20px 0px 0px 10px;
+    box-shadow: 5px 5px 10px black; 
+    }
+    .support h3{
+    color: #28a745;
+    font-family: Impact;
+    text-align: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 10px 0px 10px 0px;
+    }
+    .support p{
+    color: #28a745;
+    font-family: Impact;
+    text-align: center;
+    margin-top: 10px; 
+    
+    }
+    /*Saylani Support End*/
+
+
+
+    
+        /*saylani social live start */
+        .social-live{
+            
+            width: 100%;
+            height: 300px;
+            position: relative;
+            top: -130px;
+        
+        }
+        .saylani-facebook{
+            position: absolute;
+            left: 600px;
+            bottom:30px;
+            width: 350px;
+           
+        }
+        .saylani-facebook h3{
+            color: #28a745;
+            border-bottom: 3px  solid  #316dc3;
+            padding: 5px;
+            font-family: Impact;
+           
+        }
+        
+        .twitter h3{
+            padding: 5px;
+            color:#28a745;
+            font-family: Impact;
+            border-bottom: 3px solid #316dc3;
+           
+        }
+        .twitter{   
+            width:530px;
+            margin-left: 50px;  
+        }
+        
+        /*saylani social live end */
+
+
+
+
+
+        /*About Saylani Start*/
+        .main-div{
+            position: relative;
+            top: -100px;
+
+
+                    }
+            .About-saylani {
+                margin-left: 50px;
+                padding: 10px;
+                line-height: 50px;
+                width: 380px;
+            }
+
+            .About-saylani h1{
+                color: #28a745;
+                font-family: Impact;
+                border-bottom: 3px  solid  #316dc3;
+            }
+            .About-saylani p {
+                color: #316dc3;
+                font-family: Impact;
+            }
+            .About-saylani img {
+                margin: 15px;
+            }
+
+
+
+            .map div{
+              
+                position: absolute;
+                top: 25px;
+                left: 500px;
+            }
+            .map div h3{
+                color: #28a745;
+                font-family: Impact;
+                border-bottom: 3px  solid  #316dc3;
+            }
+            /*About Saylani End*/
+
+
+
+            /*Footer Start*/
+                    footer{
+                        background-color: #0b7dda;
+                        color: white;
+                        height: 50px;
+                        width: 100%;
+                        text-align:center;
+                        padding-top: 15px;
+                        margin-top: -70px; 
+                    }
+
+            /*Footer End*/

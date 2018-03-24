@@ -1,0 +1,200 @@
+/* Navbar: Start */
+
+.bg-light {
+    background-color: #28a745 !important;
+    height: 50px !important;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+.nav-link:hover {
+    background-color: #316dc3;
+    border-radius: 14px;
+}
+
+.dropdown-menu {
+    background-color: #28a745 !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.dropdown-menu:hover {
+    color: #316dc3 !important;
+}
+
+.dropdown-item {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.dropdown-item:hover {
+    background-color: #316dc3 !important;
+    border-radius: 14px;
+}
+
+/* Navbar: End */
+
+/* NEWS BAR: Start */
+
+.main-news {
+    position: relative;
+}
+
+.latest-news {
+    background-color: #316dc3 !important;
+    color: gold;
+    width: 180px;
+    border-top-right-radius: 30px;
+    height: 47px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+.latest-news h1 {
+    font-size: 20px;
+}
+
+.news-bar {
+    border: 2px solid green;
+    padding: 10px;
+    width: 100%;
+    height: 48px;
+    background-color: #56b46c !important;
+}
+
+.NEWS ul {
+    list-style-type: none;
+}
+
+.NEWS ul li {
+    display: inline;
+    margin-left: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.NEWS ul li:hover {
+    color: #316dc3;
+}
+
+marquee {
+    text-transform: uppercase;
+}
+
+/* NEWS BAR: END */
+
+/*Saylani-Uni start*/
+
+.saylani-uni {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid #88a1c4;
+}
+
+.saylani-uni img {
+    padding: 5px;
+}
+
+.saylani-uni h4 {
+    padding: 5px;
+    color: #28a745;
+    font-family: Impact;
+    border-bottom: 1px solid #88a1c4;
+}
+
+.saylani-uni p {
+    font-size: 20px;
+}
+
+/*Saylani-Uni End*/
+
+/*Saylani Support Start*/
+
+.support {
+    margin-top: 50px;
+    width: 100%;
+    height: 270px;
+}
+
+.support img {
+    margin: 20px 0px 0px 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.support h3 {
+    color: #28a745;
+    font-family: Impact;
+    text-align: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.support p {
+    color: #28a745;
+    font-family: Impact;
+    width: 33%;
+    height: 200px;
+    float: left;
+}
+
+/*Saylani Support End*/
+
+/*About Saylani Start*/
+
+.main-div {
+    position: relative;
+    top: 10px;
+}
+
+.About-saylani {
+    margin-left: 50px;
+    padding: 10px;
+    line-height: 50px;
+    width: 380px;
+}
+
+.About-saylani h1 {
+    color: #28a745;
+    font-family: Impact;
+    border-bottom: 3px solid #316dc3;
+}
+
+.About-saylani p {
+    color: #316dc3;
+    font-family: Impact;
+}
+
+.About-saylani img {
+    margin: 15px;
+}
+
+.map div {
+    position: absolute;
+    top: 25px;
+    left: 500px;
+}
+
+.map div h3 {
+    color: #28a745;
+    font-family: Impact;
+    border-bottom: 3px solid #316dc3;
+}
+
+/*About Saylani End*/
+
+/*Footer Start*/
+
+footer {
+    background-color: #0b7dda;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/*Footer End*/
